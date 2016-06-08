@@ -1,0 +1,9 @@
+#! /usr/bin/env ./node_modules/.bin/silk-babel-node
+
+async function testme() {
+  console.log('I haz run async function ...');
+}
+
+testme().then(() => {
+  console.log('~~~ done ~~~');
+})

@@ -1,0 +1,15 @@
+{
+  "name": "test-babel-run",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./bin/cli && mocha test/*_test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "silk-babel-run": ">=0.13.0 <1.0.0",
+    "mocha": "^2.5.3"
+  }
+}
